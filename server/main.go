@@ -42,7 +42,7 @@ func main() {
 	}
 
 	//参数和占位符对应
-	result, err := stmt.Exec("张三", "海淀")
+	result, err := stmt.Exec("李四", "重庆")
 	if err != nil {
 		fmt.Println("sql执行失败")
 		return
@@ -63,5 +63,5 @@ func main() {
 
 	//可能需要获取到新增时主键的值
 	id, err := result.LastInsertId()
-
+	fmt.Printf("主键Id%d", id)
 }
