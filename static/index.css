@@ -1,0 +1,12 @@
+body{
+    background: aquamarine;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+p {
+    padding: 10px;
+    background-color: beige;
+}
