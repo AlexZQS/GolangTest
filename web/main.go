@@ -80,6 +80,7 @@ func handleDetail(w http.ResponseWriter, r *http.Request) {
 }
 
 func handleIndex(writer http.ResponseWriter, request *http.Request) {
+	//结构体里面的数据，必须大写，才能被模板解析
 	data := struct {
 		Title string
 		Items []string
