@@ -14,7 +14,7 @@ import (
  */
 func main() {
 	//1. 打开链接
-	db, err := sql.Open("mysql", "root:123@tcp(localhost:3306)/first")
+	db, err := sql.Open("mysql", "root:1234@tcp(localhost:3306)/first")
 	db.Ping()
 
 	defer func() {
@@ -63,5 +63,5 @@ func main() {
 
 	//可能需要获取到新增时主键的值
 	id, err := result.LastInsertId()
-	fmt.Printf("主键Id%d", id)
+	fmt.Printf("主键Id = %d", id)
 }

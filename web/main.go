@@ -25,9 +25,10 @@ func main() {
 	router.HandleFunc("/form", handleForm)
 	router.HandleFunc("/formadd", handleFormAdd)
 
-	//静态服务器
+	//静态服务器,当发现url以/static 开头把请求转发给指定的路径
+	//http://localhost:8090/static/index
 	fileServer := http.FileServer(http.Dir("./static"))
-	router.PathPrefix("/static/").Handler(http.StripPrefix("/static",fileServer))
+	router.PathPrefix("/static/").Handler(http.StripPrefix("/static", fileServer))
 
 	router.HandleFunc("/setsession", handleSetSession)
 	router.HandleFunc("/getsession", handleGetSession)
@@ -39,7 +40,7 @@ func main() {
 func handleGetSession(writer http.ResponseWriter, request *http.Request) {
 	session, err := store.Get(request, "zhengwuyangguang")
 	if err != nil {
-		http.Error(writer,err.Error(),http.StatusInternalServerError)
+		http.Error(writer, err.Error(), http.StatusInternalServerError)
 		return
 	}
 	fmt.Println(session.Values["name"])
@@ -49,12 +50,12 @@ func handleGetSession(writer http.ResponseWriter, request *http.Request) {
 func handleSetSession(writer http.ResponseWriter, request *http.Request) {
 	session, err := store.Get(request, "zhengwuyangguang")
 	if err != nil {
-		http.Error(writer,err.Error(),http.StatusInternalServerError)
+		http.Error(writer, err.Error(), http.StatusInternalServerError)
 		return
 	}
 	session.Values["name"] = "alex"
 	session.Values["age"] = 19
-	session.Save(request,writer)
+	session.Save(request, writer)
 }
 
 func handleForm(writer http.ResponseWriter, request *http.Request) {
@@ -67,7 +68,7 @@ func handleForm(writer http.ResponseWriter, request *http.Request) {
 func handleFormAdd(writer http.ResponseWriter, request *http.Request) {
 	request.ParseForm()
 	comment := request.PostForm.Get("comment")
-	templates.ExecuteTemplate(writer,"form.html",comment)
+	templates.ExecuteTemplate(writer, "form.html", comment)
 }
 
 func handleHome(w http.ResponseWriter, r *http.Request) {
@@ -81,7 +82,7 @@ func handleDetail(w http.ResponseWriter, r *http.Request) {
 func handleIndex(writer http.ResponseWriter, request *http.Request) {
 	data := struct {
 		Title string
-		Items [] string
+		Items []string
 	}{
 		Title: "胥诺是是个傻子",
 		Items: []string{
@@ -109,7 +110,7 @@ func handleDb(writer http.ResponseWriter, request *http.Request) {
 		title string
 	)
 
-	var news [] string
+	var news []string
 
 	for rows.Next() {
 		rows.Scan(&id, &title)
@@ -123,4 +124,3 @@ var templates = template.Must(template.ParseGlob("templates/*.html"))
 var store = sessions.NewCookieStore([]byte("test"))
 
 var db *sql.DB
-
