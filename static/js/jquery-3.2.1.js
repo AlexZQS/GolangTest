@@ -906,7 +906,7 @@ function createCache() {
 
 /**
  * Mark a function for special use by Sizzle
- * @param {Function} fn The function to mark
+ * @param {Function} fn The function to mark.md
  */
 function markFunction( fn ) {
 	fn[ expando ] = true;
