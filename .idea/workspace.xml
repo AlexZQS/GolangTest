@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d17d268-d42a-43af-b5d1-99c39ad9d0bf" name="Default" comment="1.模板调用函数">
-      <change afterPath="$PROJECT_DIR$/server/ServerCookie.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/cookie.html" afterDir="false" />
+    <list default="true" id="6d17d268-d42a-43af-b5d1-99c39ad9d0bf" name="Default" comment="1.cookie操作">
+      <change afterPath="$PROJECT_DIR$/server/ServerRestfull.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,81 +25,82 @@
     <expand />
     <select />
   </component>
+  <component name="DockManager">
+    <window id="2">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/templates/parse_json.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="294">
+                    <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/server/LoginRegex.go">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="336">
+                    <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/ServerTemplateUseFunc.go">
+        <entry file="file://$PROJECT_DIR$/web/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="388">
+              <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
               <folding>
-                <element signature="e#14#53#0" expanded="true" />
+                <element signature="e#14#133#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/ServerTemplate.go">
+        <entry file="file://$PROJECT_DIR$/templates/cookie_set.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="336">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/ServerJson.go">
+        <entry file="file://$PROJECT_DIR$/templates/login_regex_match.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
-              <folding>
-                <element signature="e#14#53#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="63">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/ServerCookieSet.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/cookie.html">
+        <entry file="file://$PROJECT_DIR$/server/ServerRestfull.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/ServerCookie.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="231">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
-                <element signature="e#14#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/RegexMatch.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-              <folding>
-                <element signature="e#14#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/LoginRegex.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-              <folding>
-                <element signature="e#14#46#0" expanded="true" />
+                <element signature="e#14#62#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,7 +127,11 @@
       <find>parse</find>
       <find>strip</find>
       <find>parseFiles</find>
+      <find>&lt;button&gt;</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="GOROOT" path="D:\Program Files\Go" />
   <component name="Git.Settings">
@@ -171,6 +175,9 @@
         <option value="$PROJECT_DIR$/server/ServerJson.go" />
         <option value="$PROJECT_DIR$/server/ServerCookie.go" />
         <option value="$PROJECT_DIR$/templates/cookie.html" />
+        <option value="$PROJECT_DIR$/templates/cookie_set.html" />
+        <option value="$PROJECT_DIR$/server/ServerCookieSet.go" />
+        <option value="$PROJECT_DIR$/server/ServerRestfull.go" />
       </list>
     </option>
   </component>
@@ -268,6 +275,7 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\work\Go\src\GoWeb\GolangTest\static\js" />
+      <recent name="D:\work\Go\src\GoWeb\GolangTest\server" />
       <recent name="D:\work\go\src\TestImmoc\static" />
       <recent name="D:\work\go\src\TestImmoc\templates" />
     </key>
@@ -284,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build ServerCookie.go">
+  <component name="RunManager" selected="Go Build.go build ServerRestfull.go">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -389,6 +397,16 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build ServerCookieSet.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="TestImmoc" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/server/ServerCookieSet.go" />
+      <package value="GoWeb/GolangTest" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build ServerCookie.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="TestImmoc" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -399,40 +417,30 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build ServerJson.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build ServerRestfull.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="TestImmoc" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/server/ServerJson.go" />
-      <package value="GoWeb/GolangTest" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build ServerTemplateUseFunc.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="TestImmoc" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/server/ServerTemplateUseFunc.go" />
+      <filePath value="$PROJECT_DIR$/server/ServerRestfull.go" />
       <package value="GoWeb/GolangTest" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build ServerTemplateUseFunc.go" />
-      <item itemvalue="Go Build.go build ServerJson.go" />
       <item itemvalue="Go Build.go build RegexMatch.go" />
       <item itemvalue="Go Build.go build LoginRegex.go" />
       <item itemvalue="Go Build.go build ServerCookie.go" />
+      <item itemvalue="Go Build.go build ServerCookieSet.go" />
+      <item itemvalue="Go Build.go build ServerRestfull.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build ServerRestfull.go" />
+        <item itemvalue="Go Build.go build ServerCookieSet.go" />
         <item itemvalue="Go Build.go build ServerCookie.go" />
         <item itemvalue="Go Build.go build LoginRegex.go" />
         <item itemvalue="Go Build.go build RegexMatch.go" />
-        <item itemvalue="Go Build.go build ServerJson.go" />
-        <item itemvalue="Go Build.go build ServerTemplateUseFunc.go" />
       </list>
     </recent_temporary>
   </component>
@@ -469,7 +477,8 @@
     <MESSAGE value="1.各种数据库操作&#10;2.模板操作" />
     <MESSAGE value="1.模板调用函数" />
     <MESSAGE value="1.json数据&#10;2.正则表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.json数据&#10;2.正则表达式" />
+    <MESSAGE value="1.cookie操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.cookie操作" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/retriever/entry.go" />
@@ -630,16 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="77" column="54" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
-          <folding>
-            <element signature="e#14#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -656,6 +655,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/jquery-3.2.1.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/ServerRouter.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/ServerTemplateUseFunc.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -674,34 +680,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/parse_json.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/ServerRouter.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/LoginRegex.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="e#14#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/ServerJson.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
+        <state relative-caret-position="275">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="e#14#53#0" expanded="true" />
           </folding>
@@ -711,10 +693,44 @@
     <entry file="file://$PROJECT_DIR$/server/ServerCookie.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="e#14#53#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.cookie.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cookie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/parse_json.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/RegexMatch.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+          <folding>
+            <element signature="e#14#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/LoginRegex.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -725,20 +741,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/RegexMatch.go">
+    <entry file="file://$PROJECT_DIR$/templates/cookie_set.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        <state relative-caret-position="336">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Go/src/net/http/cookie.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/ServerCookieSet.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
           <folding>
-            <element signature="e#14#41#0" expanded="true" />
+            <element signature="e#14#133#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cookie.html">
+    <entry file="file://$PROJECT_DIR$/server/ServerRestfull.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state relative-caret-position="231">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#14#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
