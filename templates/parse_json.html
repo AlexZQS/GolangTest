@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="/static/js/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("button").click(function () {
+                $.post("/showUser", function (data) {
+                    var result = "";
+                    for (var i = 0; i < data.length; i++) {
+                        result += "<tr>";
+                        result += "<td>" + data[i].Name + "</td>";
+                        result += "<td>" + data[i].Age + "</td>";
+                        result += "<tr>";
+
+                    }
+                    $("#mybody").html(result)
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+<button>加载数据</button>
+<table border="1">
+    <tr>
+        <td>姓名</td>
+        <td>年龄</td>
+    </tr>
+    <tbody id="mybody">
+
+    </tbody>
+</table>
+</body>
+</html>
